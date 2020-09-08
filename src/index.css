@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQ-RlSqjfdQDOtV2FYdxL_0SiZKcKVplnoPQ&usqp=CAU");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+
+
+
+.header {
+  color: white;
+  background-color: rgb(156, 115, 161);
+  
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
 }
