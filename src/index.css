@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQ-RlSqjfdQDOtV2FYdxL_0SiZKcKVplnoPQ&usqp=CAU");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
 }
 
 code {
