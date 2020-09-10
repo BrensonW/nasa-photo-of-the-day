@@ -9,7 +9,8 @@ const NasaPic = (props) => {
   useEffect(() => {
     axios
       .get(
-        "https://api.nasa.gov/planetary/apod?date=2020-09-08&api_key=5wqdQ5yxehGolrE0h0ZNEy8TERrumKxnJYewmz8J"
+        "https://api.nasa.gov/planetary/apod?date=2020-09-10&api_key=5wqdQ5yxehGolrE0h0ZNEy8TERrumKxnJYewmz8J" 
+        // Change the date in this code to see another nasa photo for that specific day
       )
       .then((response) => {
         console.log(response);

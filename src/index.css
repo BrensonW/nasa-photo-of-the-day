@@ -33,7 +33,17 @@ code {
   width: 50%;
   margin: 0 auto;
   color: white;
+ 
+  
 }
+
+/* Added this line when i imported bottstrap inside index.js because it made the info section background white */
+.card-body{
+  background-color: rgb(156, 115, 161);
+  
+ 
+}
+
 @media (max-width: 500px) {
   .container {
     width: 90%;

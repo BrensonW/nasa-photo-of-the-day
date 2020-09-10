@@ -5,13 +5,13 @@
 
 .Apod {
   background-color: #daba06;
-  border-radius: 50%;
+  border-radius: 50%; 
   padding-bottom: 30px;
 } 
-.breathingRoom {
-  margin: 30%;
+/* .breathingRoom {
+  margin: 30%; 
 }
-
+*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
