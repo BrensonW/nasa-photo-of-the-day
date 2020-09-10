@@ -16,7 +16,7 @@ const NasaPic = (props) => {
         console.log(response);
         setPhoto(response.data);
       })
-      .catch((error) => console.log(error));
+      .catch((error) => console.log('There is no picture to show', error));
   }, []);
   console.log(photo);
   return (

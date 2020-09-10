@@ -12,6 +12,7 @@ const Photo = (props) => {
           width="100%"
           src={props.photo.hdurl}
           alt={props.photo.explanation}
+         
         />
         <CardBody>
           <CardTitle>{props.photo.title}</CardTitle>
